@@ -1,2 +1,2 @@
-# cliu.github.io
-Personal portfolio/blog website
+# changyang-liu.github.io
+My personal portfolio/blog website
