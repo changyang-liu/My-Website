@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Charles Liu</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="public/stylesheets/index.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="public/images/favicon.ico" alt="">
+      <h1>C.Liu</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mr-5">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Blog </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="" data-toggle="modal" data-target="#contactModal">Contact <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Coming Soon! </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="jumbotron-bg">
+      <img src="public/images/los_angeles.jpeg" alt="https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1930&q=80" class="blur ">
+    </div>
+    <div class="container py-auto" id="jumbo-container">
+      <h1>Charles Liu</h1>
+      <hr>
+      <p>
+        Welcome to my website.
+      </p>
+      <a href="#" class="btn btn-secondary">Blog</a>
+      <a href="#" class="btn btn-secondary">About</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- About Me -->
+    <div class="container" id="about">
+      <div class="section-header" id="about-header">
+        <h1>About Me</h1>
+        <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-arrow-down-thin.png" alt="" class="img-fluid" id="arrow">
+      </div>
+      <div class="row my-5" id="about-content">
+        <div class="col-md-5">
+          <img src="public/images/my_profile.jpg" alt="" class="ml-auto img-fluid d-block" id="profile"> 
+        </div>
+        <div class="col-md-7">
+          <h3>Hi there, I'm a</h3>
+          <ul id="description">
+            <li>
+              Computer science major at the University of California, Los Angeles.
+            </li>
+            <li>
+              Software engineer intern at the Daily Bruin.
+            </li>
+            <li>
+              Computer vision team member at UAS@UCLA.
+            </li>
+            <li>
+              Singer at UCLA Chorale and Game Music Ensemble.
+            </li>
+          </ul>
+          <span id="resume-btn"><a href="" class="btn btn-primary my-4 ml-5">My Resume</a></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="container" id="info-cards">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 mb-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Languages</h5>
+              <hr>
+              <ul class="card-list">
+                <li><i class="devicon devicon-cplusplus-plain"></i>C++</li>
+                <li><i class="devicon devicon-python-plain"></i>Python</li>
+                <li><i class="devicon devicon-javascript-plain"></i>Javascript</li>
+                <li><i class="devicon devicon-html5-plain"></i><i class="devicon devicon-css3-plain"></i>HTML & CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Frameworks/Technologies</h5>
+              <hr>
+              <ul class="card-list">
+                <li><i class="devicon devicon-react-original"></i>React</li>
+                <li><i class="devicon devicon-django-plain"></i>Django</li>
+                <li><i class="devicon devicon-mongodb-plain"></i>MongoDB</li>
+                <li><i class="devicon devicon-nodejs-plain"></i>NodeJS + Express</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <!-- Facts -->
+    <div class="container">
+      <div class="row" id="facts">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3>
+            A few more facts
+          </h3>
+          <ul id="fact-list">
+            <li><strong>Languages (human): </strong>English, Mandarin, German</li>
+            <li><strong>Hobbies: </strong>Gaming, Muay Thai, Classical singing, Hifi Audio</li>
+            <li><strong>Favorite composers: </strong>Mahler, Beethoven, Brahms</li>
+            <li><strong>Favorite books: </strong><em>Anna Karenina, Outliers, The Sun Also Rises</em></li>
+          </ul>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="container">
+      <div class="section-header">
+
+        <h1>Blog</h1>
+      </div>
+      <div class="incomplete">
+        <h1>Coming soon!</h1>
+      </div>
+    </div>
+    
+    <!-- Projects -->
+    <div class="container">
+      <div class="section-header">
+        <h1>Projects</h1>
+      </div>
+      <div class="incomplete">
+        <h1>Coming soon!</h1>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer py-3">
+    <div class="separator mx-auto"><h5>Connect</h5></div>
+    <div class="row mx-auto" id="icons">
+      <div class="col">
+        <a href="https://github.com/changyang-liu" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.linkedin.com/in/charles-cy-liu" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="col">
+        <a href="" data-toggle="modal" data-target="#exampleModal">
+          <i class="fas fa-envelope-square"></i>
+        </a>
+      </div>
+      <div class="col">
+        <a href="" data-toggle="modal" data-target="#contactModal">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <i class="fas fa-envelope-square"></i>
+            liuchangyang@g.ucla.edu
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            +1 (310) 869-2065
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="mailto: liuchangyang@g.ucla.edu" type="button" class="btn btn-primary">Send Email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery_min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./landing.js" type="text/javascript"></script>
+</body>
+</html>
