@@ -24,106 +24,6 @@ body{
     font-weight: 100;
 }
 
-/* Separator */
-.separator {
-    color: grey;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.separator::before, .separator::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid grey;
-}
-.separator::before {
-    margin-right: .25em;
-}
-.separator::after {
-    margin-left: .25em;
-}
-
-/* About Me */
-#about-header img{
-    height: 35px;
-}
-
-#about-content{
-    text-align: left;
-}
-
-#profile{
-    border-radius: 50%;
-    width: 300px;
-}
-
-#description{
-    list-style: none;
-    padding-left: 0px;
-}
-
-#arrow{
-    -webkit-transition: visibility 0.2s ease-in; /* Safari */
-    transition: visibility 0.2s ease-in;
-}
-
-.col-md-7 h3{
-    margin-bottom: 1em;
-    font-weight: 600;
-}
-
-#description li{
-    margin-bottom: 1em;
-}
-
-#description li:before {
-  content: "-";
-  padding-right: 5px;
-}
-
-@media (max-width: 992px) {
-    .col-md-7{
-        text-align: center;
-    }
-
-    #profile{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 2em;
-    }
-}
-
-/* Info cards */
-.card-list{
-    list-style: none;
-    font-size: 1.1em;
-}
-
-.card-list li{
-    margin-bottom: 1em;
-}
-
-.devicon{
-    margin-right: 10px;
-    font-size: 1.3em;
-}
-
-/* Facts */
-#facts{
-    text-align: center;
-    margin-top: 1em;
-}
-
-#facts h3{
-    color: grey;
-}
-
-#fact-list{
-    list-style: none;
-    padding-left: 0px;
-}
-
 /* Navbar */
 nav{
     /* background: #756a64; */
@@ -202,7 +102,7 @@ nav a{
     color: white;
     vertical-align: middle;
     text-align: center;
-    margin-top: 12em;
+    margin-top: 15em;
 }
 
 #jumbo-container h1{
@@ -218,6 +118,100 @@ nav a{
     width: 50%;
 }
 
+#jumbo-icons{
+    display:flex;
+    justify-content: center;
+}
+
+#jumbo-icons a{
+    color: white;
+    font-size: 3em;
+}
+
+
+/* About Me */
+#about-header img{
+    height: 35px;
+}
+#jumbo-icons col i{
+    color: white important!;
+}
+#about-content{
+    text-align: left;
+}
+
+#profile{
+    border-radius: 50%;
+    width: 300px;
+}
+
+#description{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#arrow{
+    -webkit-transition: visibility 0.2s ease-in; /* Safari */
+    transition: visibility 0.2s ease-in;
+}
+
+.col-md-7 h3{
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+#description li{
+    margin-bottom: 1em;
+}
+
+#description li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+@media (max-width: 992px) {
+    .col-md-7{
+        text-align: center;
+    }
+
+    #profile{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+}
+
+/* Info cards */
+.card-list{
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.card-list li{
+    margin-bottom: 1em;
+}
+
+.devicon{
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+/* Facts */
+#facts{
+    text-align: center;
+    margin-top: 1em;
+}
+
+#facts h3{
+    color: grey;
+}
+
+#fact-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+
 /* Footer */
 .footer{
     margin-top: 2em;
@@ -228,14 +222,27 @@ nav a{
     text-align: center;
 }
 
-#icons{
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-#icons a{
+#footer-icons a{
     color: grey;
     font-size: 2em;
+}
+
+/* Separator */
+.separator {
+    color: grey;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid grey;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
 }

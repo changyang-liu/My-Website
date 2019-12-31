@@ -1,3 +1,4 @@
+//On scroll
 $(window).scroll(() => {
     let scroll = $(window).scrollTop();
     //Toggle arrow visibility
@@ -18,6 +19,7 @@ $(window).scroll(() => {
     }
 });
 
+//About button functionality
 $('#about-btn').click(() => {
     document.getElementById('about').scrollIntoView({
         behavior:'smooth',
