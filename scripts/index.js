@@ -17,3 +17,10 @@ $(window).scroll(() => {
         $('#arrow').css('display', 'inline-block')
     }
 });
+
+$('#about-btn').click(() => {
+    document.getElementById('about').scrollIntoView({
+        behavior:'smooth',
+        block: 'start'
+    });
+});
