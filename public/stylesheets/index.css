@@ -177,7 +177,7 @@ nav a{
 
 @media (max-width: 992px) {
     #arrow{
-        visibility: hidden;
+        display: none;
     }
 
     .col-md-7{
